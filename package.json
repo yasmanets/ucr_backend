@@ -1,0 +1,31 @@
+{
+  "name": "ucr_backend",
+  "version": "1.0.0",
+  "description": "Backend to analyze business card readings",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "nodemon ./src/index.js",
+    "start": "./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasmanets/ucr_backend.git"
+  },
+  "author": "Yaser El Dabete Arribas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasmanets/ucr_backend/issues"
+  },
+  "homepage": "https://github.com/yasmanets/ucr_backend#readme",
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "mongoose": "5.10.8",
+    "winston": "3.3.3"
+  }
+}
